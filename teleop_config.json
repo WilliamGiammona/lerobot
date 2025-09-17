@@ -10,7 +10,7 @@
       "observation.images.wrist": [0, 0, 128, 128]
     },
     "resize_size": [128, 128],
-    "control_time_s": 15.0,
+    "control_time_s": 30.0,
     "use_gripper": true,
     "fixed_reset_joint_positions": [
       0.0,
@@ -34,7 +34,7 @@
   "pretrained_policy_name_or_path": null,
   "device": "mps",
   "push_to_hub": false,
-  "fps": 20,
+  "fps": 7,
   "features": {
     "observation.images.front": {
       "type": "VISUAL",
